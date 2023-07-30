@@ -1,0 +1,51 @@
+*{
+    border: 0;
+    margin: 0;
+}
+.nav-bar{
+   background-color: black;
+   width: 100%;
+   height: 80px;
+}
+.nav-heading{
+    color: white;
+    width: 50%;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav-heading h3{
+    cursor: pointer;
+}
+.nav-bar .nav-heading{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.nav-bar nav{
+    color: white;
+    position: relative;
+    right: 100px;
+    bottom: 30px;
+    font-size: 18px;
+}
+.nav-bar li{
+    padding: 10px;
+    cursor: pointer;
+}
+.nav-bar ul{
+    display: flex;
+    float: right;
+}
+.nav-heading h3:hover{
+   color: blue;
+}
+.nav-bar li:hover{
+    color: blue;
+}
+.heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    padding-top: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
