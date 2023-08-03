@@ -1,51 +1,68 @@
 *{
-    border: 0;
     margin: 0;
 }
-.nav-bar{
-   background-color: black;
-   width: 100%;
-   height: 80px;
-}
-.nav-heading{
-    color: white;
-    width: 50%;
-    font-size: 16px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.nav-heading h3{
-    cursor: pointer;
-}
-.nav-bar .nav-heading{
-    padding-left: 30px;
-    padding-top: 30px;
-}
-.nav-bar nav{
-    color: white;
-    position: relative;
-    right: 100px;
-    bottom: 30px;
-    font-size: 18px;
-}
-.nav-bar li{
-    padding: 10px;
-    cursor: pointer;
-}
-.nav-bar ul{
-    display: flex;
-    float: right;
-}
-.nav-heading h3:hover{
-   color: blue;
-}
-.nav-bar li:hover{
-    color: blue;
-}
-.heading{
+.nav{
     width: 100%;
+    background-color: black;
+    height: 100px;
+}
+.nav h3{
+    padding-left: 30px;
+    padding-top: 40px;
+    color: white;
+    font-size: 22px;
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline-block;
+}
+.nav li{
+    color: white;
+    margin: 15px;
+    font-size: 20px;
+}
+.nav ul{
     display: flex;
+}
+.nav nav{
+   float: right;
+   display: flex;
+   position: relative;
+   right: 60px;
+   top: 30px;
+}
+.head-container{
+    height: 500px;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    font-size: 100px;
-    padding-top: 100px;
+    font-size: 85px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mission-container{
+    height:850px;
+    background-color: #1D5D9B;
+    border-radius: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-container{
+    height: 650px;
+    width: 950px;
+    background-color: #ACFADF;
+    border-radius:50px;
+    justify-content:center;
+    display:flex;
+    align-items: center;
+}
+.sub-content-container{
+    font-size: 30px;
+    text-align: left;
+    width: 800px;
+    height: 600px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 20;
+}
+.p-one{
+    color: white;
 }
